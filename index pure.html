@@ -1,0 +1,59 @@
+<html>
+    <head><h1>My Family</h1>
+    </head>
+    <body>
+        <img id="album" src="91zbi9M+mKL.jpg">
+        <p>
+          Members   
+            <h2 id="name"> 
+            </h2>
+        </p>
+        <p>
+            Father   
+              <h2 id="f"> 
+              </h2>
+          </p>
+          <p>
+            Mother   
+              <h2 id="m"> 
+              </h2>
+          </p>
+          <p>
+            Brother   
+              <h2 id="b"> 
+              </h2>
+          </p>
+          <p>
+            Me   
+              <h2 id="me"> 
+              </h2>
+          </p>
+        <button type="button" onclick="hen">Next</button>
+        <script>
+        //Members the id to be refer for innerHTML is name
+        var members = ["Mother", "Father", "Brother", "Me",];
+    console.log(members);
+    document.getElementById("name").innerHTML = members;
+
+    //Father the id to be refer for innerHTML is f
+        var fa = members[1];
+    console.log(f);
+    document.getElementById("f").innerHTML = fa;
+
+    //Mother the id to be refer for innerHTML is m
+    var mo = members[0];
+    console.log(m);
+    document.getElementById("m").innerHTML = mo;
+
+    //Brother the id to be refer for innerHTML is b
+    var br = members[2];
+    console.log(br);
+    document.getElementById("b").innerHTML = br;
+
+    //Me the id to be refer for innerHTML is me
+    var my = members[3];
+    console.log(my);
+    document.getElementById("me").innerHTML = my;
+    </script>  
+    </body>
+    </html>
